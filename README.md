@@ -30,6 +30,18 @@ Download the NI Teststand according to your system configurations from the follo
 
 
 ## File Structure
+📂 **Project Root**
+├── 📂 src  *(Source code folder)*
+│   ├── 📂 components  *(Reusable components)*
+│   ├── 📂 assets  *(Images, icons, and styles)*
+│   ├── 📄 index.js  *(Entry point of the app)*
+│   └── 📄 App.js  *(Main app component)*
+├── 📂 public  *(Static assets)*
+│   ├── 📄 index.html  *(Main HTML file)*
+│   └── 📄 favicon.ico  *(Favicon)*
+├── 📄 package.json  *(Project metadata and dependencies)*
+├── 📄 README.md  *(Project documentation)*
+└── 📄 .gitignore  *(Ignored files in Git)*
 
 📂 **teststand_testcases**
 ├── 📂 TestUltrasonic  *(Folder for all ultrasonic sensor testcases)*
