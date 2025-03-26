@@ -30,38 +30,26 @@ Download the NI Teststand according to your system configurations from the follo
 
 
 ## File Structure
-📂 **Project Root**
-├── 📂 src  *(Source code folder)*
-│   ├── 📂 components  *(Reusable components)*
-│   ├── 📂 assets  *(Images, icons, and styles)*
-│   ├── 📄 index.js  *(Entry point of the app)*
-│   └── 📄 App.js  *(Main app component)*
-├── 📂 public  *(Static assets)*
-│   ├── 📄 index.html  *(Main HTML file)*
-│   └── 📄 favicon.ico  *(Favicon)*
-├── 📄 package.json  *(Project metadata and dependencies)*
-├── 📄 README.md  *(Project documentation)*
-└── 📄 .gitignore  *(Ignored files in Git)*
-
-📂 **teststand_testcases**
-├── 📂 TestUltrasonic  *(Folder for all ultrasonic sensor testcases)*
-│   ├── 📂 TestCasesCommon  *(Reusable components)*
-│   │   ├──📄 AdjustmentRange.seq  *(sequence file for adjustment range)*
-│   │   ├──📄 AnalogErrorFreeze.seq  *(sequence file for adjustment range)*
-│   ├── 📂 TestF42  *(Project specific components)*
-│   ├── 📂 TestF77  *(Project specific components)*
-│   ├── 📂 TestM18  *(Project specific components)*
-│   ├── 📂 TestUsi  *(Project specific components)*
-│   ├── 📂 TestASCARI  *(Project specific components)*
-├── 📂 TestRadar  *(Folder for all radar sensor testcases)*
-│   ├── 📂 TestCasesCommon  *(Reusable components)*
-│   │   ├──📄 AdjustmentRange.seq  *(sequence file for adjustment range)*
-│   │   ├──📄 AnalogErrorFreeze.seq  *(sequence file for adjustment range)*
-├── 📄 package.json  *(Project metadata and dependencies)*
-├── 📄 README.md  *(Project documentation)*
-├── 📄 .gitattributes  *(Ignored files in Git)*
-└── 📄 .gitignore  *(Ignored files in Git)*
-
+```
+📂 teststand_testcases
+├── 📂 TestUltrasonic  #(Folder for all ultrasonic sensor testcases)
+│   ├── 📂 TestCasesCommon  #(Reusable components)
+│   │   ├──📄 AdjustmentRange.seq #(sequence file for adjustment range)
+│   │   ├──📄 AnalogErrorFreeze.seq  #(sequence file for adjustment range)
+│   ├── 📂 TestF42  #(Project specific components)
+│   ├── 📂 TestF77  #(Project specific components)
+│   ├── 📂 TestM18  #(Project specific components)
+│   ├── 📂 TestUsi  #(Project specific components)
+│   ├── 📂 TestASCARI  #(Project specific components)
+├── 📂 TestRadar  #(Folder for all radar sensor testcases)
+│   ├── 📂 TestCasesCommon  #(Reusable components)
+│   │   ├──📄 AdjustmentRange.seq  #(sequence file for adjustment range)
+│   │   ├──📄 AnalogErrorFreeze.seq  #(sequence file for adjustment range)
+├── 📄 package.json  #(Project metadata and dependencies)
+├── 📄 README.md  #(Project documentation)
+├── 📄 .gitattributes  #(Ignored files in Git)
+└── 📄 .gitignore  #(Ignored files in Git)
+```
 ## Contributing
 Contributions are welcome! Please follow these steps:
 1. Clone the repository.
