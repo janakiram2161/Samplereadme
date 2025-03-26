@@ -26,10 +26,10 @@ Download the NI Teststand according to your system configurations from the follo
 3. Open the Project:
 
 
-## GettingStarted
+## Getting-Started
 
 
-## File Structure
+## File-structure
 ```
 📂 teststand_testcases
 ├── 📂 TestUltrasonic  #(Folder for all ultrasonic sensor testcases)
